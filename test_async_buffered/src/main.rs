@@ -31,6 +31,7 @@ fn create_stream() -> impl stream::Stream<Item = Result<(u8, u8), JoinError>> {
 }
 
 //removed Result
+#[allow(dead_code)]
 fn create_stream_r<S>(stream: S) -> impl stream::Stream<Item = (u8, u8)>
 where
     S: stream::Stream<Item = Result<(u8, u8), JoinError>>,
