@@ -1,0 +1,10 @@
+[package]
+name = "test_sysinfo"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+byte-unit = "4.0.19"
+sysinfo = "0.29.10"

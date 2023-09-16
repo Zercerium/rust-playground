@@ -64,7 +64,7 @@ async fn main() {
     let stream = create_stream();
     pin!(stream);
 
-    event!(Level::INFO, "JoinError");
+    event!(Level::INFO, "with JoinError");
     while let Some(n) = stream.next().await {
         let n = n.unwrap();
         println!("Collected Task: {}, Delay: {}", n.1, n.0);
