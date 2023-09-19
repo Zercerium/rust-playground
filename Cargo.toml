@@ -1,3 +1,8 @@
 [workspace]
 resolver = "2"
-members = ["test_async_buffered", "test_async_buffered2", "test_sysinfo"]
+members = [
+    "test_async_buffered",
+    "test_async_buffered2",
+    "test_sysinfo",
+    "test_fritzbox_aha",
+]
